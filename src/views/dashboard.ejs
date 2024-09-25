@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+      background-color: #f8f8f8;
+    }
+
+    @keyframes title {
+      0% {
+        transform: rotate(0deg);
+        /* Início */
+      }
+
+      10% {
+        transform: rotate(36deg);
+        /* 1/10 de 360° */
+      }
+
+      20% {
+        transform: rotate(72deg);
+        /* 2/10 de 360° */
+      }
+
+      30% {
+        transform: rotate(108deg);
+        /* 3/10 de 360° */
+      }
+
+      40% {
+        transform: rotate(144deg);
+        /* 4/10 de 360° */
+      }
+
+      50% {
+        transform: rotate(180deg);
+        /* Metade da volta */
+      }
+
+      60% {
+        transform: rotate(216deg);
+        /* 6/10 de 360° */
+      }
+
+      70% {
+        transform: rotate(252deg);
+        /* 7/10 de 360° */
+      }
+
+      80% {
+        transform: rotate(288deg);
+        /* 8/10 de 360° */
+      }
+
+      90% {
+        transform: rotate(324deg);
+        /* 9/10 de 360° */
+      }
+
+      100% {
+        transform: rotate(360deg);
+        /* Volta completa */
+      }
+    }
+
+
+    .title {
+      animation: title 5s ease-in-out infinite;
+      font-size: 30px;
+    }
+  </style>
+  <title>Document</title>
+</head>
+
+<body>
+  <h1 class="title">Hello World</h1>
+  <a href="/deslogar">deslogar</a>
+</body>
+
+</html>
